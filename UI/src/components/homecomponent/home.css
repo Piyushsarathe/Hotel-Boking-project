@@ -1,0 +1,56 @@
+/* Hero Section */
+.hero-section {
+    height: 50vh;
+    position: relative;
+    
+  }
+  .hero-section .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem;
+  }
+  .lead{
+    color: #d6c084;
+  }
+  .bimg{
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    height: 70%;
+    width: 90%;
+  padding: 4rem;
+  }
+  .hero-section .z-1 {
+    position: relative;
+    z-index: 1;
+  }
+  .city-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .city-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  .city-image {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  .cta-section {
+    background-color: #0d6efd;
+    background-image: linear-gradient(120deg, #0d6efd 0%, #007bff 100%);
+  }
+   
+  .card-title {
+    font-size: 1.3rem;
+  }
+  .fetch{
+    padding-bottom: 15px;
+  }
+ 

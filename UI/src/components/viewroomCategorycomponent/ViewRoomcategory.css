@@ -1,0 +1,10 @@
+#main{
+min-height:300px;
+/* background-color: aqua; */
+}
+.items{
+    height: 400px;
+        width: 330px;
+        float: left;
+        margin-left: 20px;
+    }
